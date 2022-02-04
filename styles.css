@@ -1,0 +1,32 @@
+.azul {
+    background-color: blue;
+    width: 30%;
+    height: 100vh;
+    display: inline-block;
+}
+
+.naranja {
+    background-color: orange;
+    width: 30%;
+    height: 100vh;
+    display: inline-block;
+}
+
+@media (max-width: 800px) {
+    .azul {
+        background-color: blue;
+        width: 48%;
+    }
+    .naranja {
+        width: 96%;
+        display: block;
+    }
+}
+
+@media (max-width: 400px) {
+    .azul {
+        background-color: blue;
+        width: 96%;
+        display: block;
+    }
+}
